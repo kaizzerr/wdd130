@@ -20,6 +20,7 @@ main {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 img {
@@ -31,13 +32,19 @@ img {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 545px;
+    left: 135px;
 }
 
 aside img {
@@ -52,3 +59,19 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 1rem;
+    border: 0px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Class Selectors */
