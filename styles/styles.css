@@ -43,8 +43,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 545px;
-    left: 135px;
+    top: 575px;
+    left: 145px;
 }
 
 aside img {
@@ -61,8 +61,8 @@ footer {
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 3;
+    padding: 3;
     box-sizing: border-box;
 }
 
