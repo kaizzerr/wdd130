@@ -21,9 +21,49 @@ body {
     --nav-hover-background-color: #F9F7F3;
 }
 
+.grid header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #0000 solid;
+    max-width: 120px;
+}
+
 header img {
+    width: 15%;
+    height: 25%;
+    float: left;
+    margin: 1rem;
+}
+
+nav {
+    text-align: center;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    float: center;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
     display: block;
-    width: 200px;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 p {
@@ -59,7 +99,7 @@ section p{
 
 .hero article {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 100px;
     right: 100px;
     background-color: rgba(214, 214, 214, 0.7);
@@ -68,11 +108,46 @@ section p{
 
 .hero h1 {
     position: absolute;
-    top: 0px;
+    top: 25%;
     left: 335px;
     color: rgb(255, 255, 255);
     background-color: rgba(59, 59, 59, 0.7);
     padding: 5px 10px;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventure figure {
+    text-align: center;
+}
+
+.adventure img {
+    width: 200px;
+    height: auto;
+}
+
+.adventure figcaption {
+    background-color: #222;
+    color: #fff;
+    font-family: Roboto;
+    padding: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ccc;
+    padding: 20px 0;
 }
 
 footer img{
@@ -81,22 +156,22 @@ footer img{
     height: 50px;
 }
 
-nav {
+.sociallinks nav {
     font-size: 1.2rem;
     display: flex;
 }
 
-nav a {
+.sociallinks nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link,nav a:visited {
+.sociallinks nav a:link,nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
+.sociallinks nav a:hover {
     color: var(--nav-hover-link-color);
 }
