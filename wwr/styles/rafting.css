@@ -34,7 +34,7 @@ header img {
     width: 15%;
     height: 25%;
     float: left;
-    margin: 1rem;
+    margin: 10px;
 }
 
 nav {
@@ -42,11 +42,8 @@ nav {
 }
 
 .navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     list-style: none;
-    padding: 0;
-    float: left;
 }
 
 .navigation li {
@@ -64,19 +61,6 @@ nav {
     color: tomato;
     font-weight: 700;
     text-decoration: underline;
-}
-
-p {
-    padding: 25px;
-}
-
-section img {
-    width: 50%;
-    height: auto;
-}
-
-section p{
-    padding: 0px;
 }
 
 .hero {
@@ -99,30 +83,60 @@ section p{
 
 .hero article {
     position: absolute;
-    top: 55%;
-    left: 100px;
-    right: 100px;
+    top: 45%;
+    left: 10%;
+    right: 10%;
     background-color: rgba(214, 214, 214, 0.7);
     padding: 5px;
 }
 
 .hero h1 {
     position: absolute;
-    top: 40%;
-    left: 335px;
+    top: 25%;
+    left: 35%;
     color: rgb(255, 255, 255);
     background-color: rgba(59, 59, 59, 0.7);
     padding: 5px 10px;
+}
+
+section img {
+    width: 50%;
+    height: auto;
+}
+
+section p {
+    padding: 0px;
+}
+
+p {
+    padding: 25px;
+}
+
+.history {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.history h2 {
+    margin-bottom: 20px;
+}
+
+.history img {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.adventure h2 {
+    display: flex;
+    float: right;
 }
 
 .adventure {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-}
-
-.adventure h2 {
     text-align: center;
 }
 
@@ -148,6 +162,7 @@ footer {
     align-items: center;
     border-top: 2px solid #ccc;
     padding: 20px 0;
+    float: right;
 }
 
 footer img{
