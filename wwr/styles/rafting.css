@@ -99,7 +99,7 @@ section p{
 
 .hero article {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 100px;
     right: 100px;
     background-color: rgba(214, 214, 214, 0.7);
@@ -108,7 +108,7 @@ section p{
 
 .hero h1 {
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 335px;
     color: rgb(255, 255, 255);
     background-color: rgba(59, 59, 59, 0.7);
