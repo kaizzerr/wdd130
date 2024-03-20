@@ -135,28 +135,33 @@ p {
 }
 
 
-.adventure h2 {
+.title h2 {
     text-align: center
 }
 
 .adventure {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     align-items: center;
     margin: auto;
 }
 
 .adventure figure {
-    display: flex;
-    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 200px;
+    height: auto;
 }
 
 .adventure img {
-    flex-direction: row;
     width: 200px;
     height: auto;
 }
 
 .adventure figcaption {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
     background-color: #222;
     color: #fff;
     font-family: Roboto;
