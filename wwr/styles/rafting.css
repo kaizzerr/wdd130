@@ -50,7 +50,6 @@ nav {
     flex: 1;
     flex-grow: 1;
     border: 1px #00120B solid;
-    display: inline-block;
 }
 
 .navigation a {
