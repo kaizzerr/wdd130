@@ -57,7 +57,7 @@ nav {
     display: block;
     color: rgb(0, 0, 172);
     text-decoration: none;
-    padding: 1px;
+    padding: 5px;
 }
 
 .navigation a:hover {
@@ -86,7 +86,7 @@ nav {
 
 .hero article {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 10%;
     right: 10%;
     background-color: rgba(214, 214, 214, 0.7);
@@ -96,7 +96,7 @@ nav {
 .hero h1 {
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 30%;
     left: 0%;
     right: 0%;
     color: rgb(255, 255, 255);
