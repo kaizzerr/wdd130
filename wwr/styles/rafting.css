@@ -47,14 +47,16 @@ nav {
 }
 
 .navigation li {
-    flex: 1 1 100%;
+    flex: 1;
+    border: 1px #00120B solid;
+    display: inline-block;
 }
 
 .navigation a {
     display: block;
     color: navy;
-    padding: 20px;
     text-decoration: none;
+    padding: 10px;
 }
 
 .navigation a:hover {
@@ -92,28 +94,26 @@ nav {
 
 .hero h1 {
     position: absolute;
+    text-align: center;
     top: 25%;
-    left: 35%;
+    left: 0%;
+    right: 0%;
     color: rgb(255, 255, 255);
     background-color: rgba(59, 59, 59, 0.7);
     padding: 5px 10px;
 }
 
-section img {
-    width: 50%;
-    height: auto;
+.hero p {
+    padding: 25px;
 }
 
 section p {
     padding: 10px;
 }
 
-p {
-    padding: 25px;
-}
-
 .history h2 {
-    margin-bottom: 20px;
+    left: 20%;
+    right: 100%
     align-items: center;
 }
 
@@ -137,6 +137,7 @@ p {
 
 .title h2 {
     text-align: center;
+    justify-content: space-between;
 }
 
 .adventure {
@@ -170,11 +171,9 @@ p {
 
 footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-top: 2px solid #ccc;
-    padding: 20px 0;
-    float: right;
+    padding: 20px;
 }
 
 footer img{
@@ -186,6 +185,7 @@ footer img{
 .sociallinks nav {
     font-size: 1.2rem;
     display: flex;
+    float: right;
 }
 
 .sociallinks nav a {
