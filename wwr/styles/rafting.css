@@ -26,7 +26,6 @@ header {
     grid-template-columns: auto 1fr;
     margin: 1rem auto;
     align-items: center;
-    border-bottom: 1px #0000 solid;
     max-width: 1000px;
 }
 
@@ -114,12 +113,6 @@ section p {
     padding: 10px;
 }
 
-.ad-title h2 {
-    position: relative;
-    left: 69%;
-    right: 69%;
-}
-
 .title h2 {
     position: relative;
     left: 77%;
@@ -148,12 +141,18 @@ section p {
     height: 300px;
 }
 
+.ad-title h2 {
+    position: relative;
+    left: 70%;
+    right: 70%;
+}
 
 .adventure {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-self: right;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .adventure figure {
