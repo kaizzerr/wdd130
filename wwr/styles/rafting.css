@@ -21,35 +21,35 @@ body {
     --nav-hover-background-color: #F9F7F3;
 }
 
-.grid header {
-    margin: 1rem auto;
+header {
     display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 1rem auto;
+    align-items: center;
     border-bottom: 1px #0000 solid;
-    max-width: 120px;
+    max-width: 1000px;
 }
 
 header img {
-    display: block;
-    width: 15%;
-    height: 20%;
-    float: left;
+    position: relative;
+    left: 120%;
+    width: 50%;
+    height: auto;
     margin: 10px;
-}
-
-nav {
-    text-align: center;
 }
 
 .navigation {
     display: flex;
     list-style: none;
     align-items: center;
+    text-align: center;
+    position: relative;
+    left: 35%;
 }
 
 .navigation li {
-    flex: 1;
-    flex-grow: 1;
-    border: 1px #00120B solid;
+    flex: 1 100%;
+    text-align: center;
 }
 
 .navigation a {
@@ -57,6 +57,7 @@ nav {
     color: rgb(0, 0, 172);
     text-decoration: none;
     padding: 5px;
+    border: 1px #00120B solid;
 }
 
 .navigation a:hover {
@@ -70,6 +71,17 @@ nav {
     width: 100%;
     left: 30%;
     right: 30%;
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 59, 59, 0.7);
+    padding: 5px 10px;
 }
 
 .hero img {
@@ -87,22 +99,11 @@ nav {
 
 .hero article {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 10%;
     right: 10%;
     background-color: rgba(214, 214, 214, 0.7);
     padding: 5px;
-}
-
-.hero h1 {
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    left: 0%;
-    right: 0%;
-    color: rgb(255, 255, 255);
-    background-color: rgba(59, 59, 59, 0.7);
-    padding: 5px 10px;
 }
 
 .hero p {
@@ -113,46 +114,52 @@ section p {
     padding: 10px;
 }
 
-.history h2 {
-    display: block;
-    text-align: center;
+.ad-title h2 {
+    position: relative;
+    left: 69%;
+    right: 69%;
+}
+
+.title h2 {
+    position: relative;
+    left: 77%;
+    right: 77%;
 }
 
 .history {
-    display: block;
+    display: flex;
+    position: relative;
     max-width: 600px;
     margin: auto;
     text-align: center;
+    left: 30%;
+    right: 40%;
 }
 
 .left {
+    flex: 1;
     width: 300px;
     height: 300px;
-    float: left;
 }
 
 .right {
+    flex: 1;
     width: 300px;
     height: 300px;
-    float: right;
 }
 
-
-.title h2 {
-    display: block;
-    width: 100%;
-    text-align: right;
-}
 
 .adventure {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 170%;
+    justify-self: right;
 }
 
 .adventure figure {
-    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    right: 10%;
     width: 200px;
     height: auto;
 }
@@ -178,16 +185,16 @@ footer {
 }
 
 .sociallinks img {
-    position: relative;
     width: 50px;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
 }
 
-.sociallinks nav {
+.sociallinks {
     display: flex;
     flex: 0 0 auto;
-    font-size: 1.2rem;
+    position: relative;
+    left: 5%;
 }
 
 .sociallinks nav a {
