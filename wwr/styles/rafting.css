@@ -143,8 +143,8 @@ section p {
 
 .ad-title h2 {
     position: relative;
-    left: 50%;
-    right: 50%;
+    left: 100%;
+    right: 100%;
 } 
 
 .adventure {
