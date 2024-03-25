@@ -39,6 +39,7 @@ fieldset {
     grid-gap: .5rem;
     margin: 1rem;
     padding: 1rem;
+    border: none;
 }
 
 label, input, button, select, textarea {
