@@ -184,8 +184,8 @@ section p {
 
 .title h2 {
     position: relative;
-    left: 70%;
-    right: 70%;
+    left: 50%;
+    right: 50%;
 }
 
 .history {
@@ -212,8 +212,8 @@ section p {
 
 .ad-title h2 {
     position: relative;
-    left: 50%;
-    right: 50%;
+    left: 60%;
+    right: 60%;
 } 
 
 .adventure {
