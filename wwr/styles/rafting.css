@@ -23,28 +23,30 @@ body {
 
 .contact {
     float: left;
+    justify-self: center;
 }
 
 .map {
     float: right;
+    justify-self: center;
 }
 
 .employee {
     clear: both;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 
 .employee figure {
     position: relative;
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: 10px;
 }
 
 .employee img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
