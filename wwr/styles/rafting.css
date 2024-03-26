@@ -33,6 +33,7 @@ body {
     clear: both;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .employee figure {
