@@ -174,33 +174,6 @@ section p {
     padding: 2px;
 }
 
-.employees {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.employees figure {
-    position: relative;
-    left: 10%;
-    right: 10%;
-    width: 250px;
-    height: auto;
-}
-
-.employees img {
-    width: 250px;
-    height: auto;
-}
-
-.employees figcaption {
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    font-family: Roboto;
-    padding: 2px;
-}
-
 footer {
     display: flex;
     width: 170%;

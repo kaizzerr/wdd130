@@ -7,6 +7,72 @@
     <meta name="description" content="Contact">
     <meta name="author" content="Kaizzer Gatan">
     <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        .contact {
+            align-items: center;
+            float: left;
+        }
+
+        .employees {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .employees figure {
+            width: 250px;
+            height: auto;
+        }
+
+        .employees img {
+            width: 250px;
+            height: auto;
+        }
+
+        .employees figcaption {
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+            font-family: Roboto;
+            padding: 2px;
+        }
+    
+        .form {
+            max-width: 800px;
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            float: right;
+            overflow: auto;
+        }
+    
+        .form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    
+        .form input[type="text"], .form input[type="email"], .form textarea {
+            width: 97%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    
+        .form button {
+            padding: .75rem;
+            margin: 1rem;
+            background-color: rgb(0, 0, 176);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        .form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -21,15 +87,44 @@
     </nav>
 </header>
 <main>
-    <h1>Contact Us</h1>
-    <h2>Send a Message Our Way</h2>
-    <p>Rafting Rapids</p>
-    <p>410-368-9950</p>
-    <p>E-Mail: <a href="mailto:">kaizzergatan@gmail.com</a></p>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <h2>Send a Message Our Way</h2>
+        <p>Rafting Rapids</p>
+        <p>410-368-9950</p>
+        <p>E-Mail: <a href="mailto:">kaizzergatan@gmail.com</a></p>
+    </div>
+    <div class="form">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+    
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email">
+    
+            <label>Purpose of Message:</label>
+            <label for="general">General Inquiry</label>
+            <input type="radio" id="general" name="general" value="General Inquiry">
+    
+            <label for="reservation">Reservation Question</label>
+            <input type="radio" id="reservation" name="reservation" value="Reservation Question">
+    
+            <label for="suggestion">Website Suggestion</label>
+            <input type="radio" id="suggestion" name="suggestion" value="Website Suggestion">
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+    
+            <button type="submit">Submit</button>
+        </fieldset>
+    </div>
     <div class="map">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205074.682296648!2d-114.32057644794602!3d51.10023883169055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d0b836c535558d%3A0xb77d6f8ab125b46e!2sRiverside%20Rafting!5e0!3m2!1sen!2sca!4v1711414637404!5m2!1sen!2sca"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="600" height="450" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="employees">
