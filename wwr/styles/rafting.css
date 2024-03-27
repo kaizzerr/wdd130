@@ -40,7 +40,7 @@ body {
     position: relative;
     font-size: 15px;
     margin: auto;
-    left: 50%;
+    left: 63%;
 }
 
 .employee {
@@ -54,6 +54,7 @@ body {
     width: 200px;
     height: auto;
     left: 30%;
+    right: 30%;
 }
 
 .employee img {
