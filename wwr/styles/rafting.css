@@ -22,26 +22,38 @@ body {
 }
 
 .contact {
-    float: left;
-    justify-self: center;
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    left: 20%;
+    top: 40%;
 }
 
 .map {
-    float: right;
-    justify-self: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    left: 40%;
+}
+
+.emp-title {
+    position: relative;
+    font-size: 15px;
+    margin: auto;
+    left: 50%;
 }
 
 .employee {
     clear: both;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .employee figure {
     position: relative;
     width: 200px;
     height: auto;
+    left: 30%;
 }
 
 .employee img {
@@ -58,6 +70,8 @@ body {
 }
 
 .form {
+    position: relative;
+    left: 25%;
     max-width: 800px;
     width: 65%;
     margin: 20px auto;
