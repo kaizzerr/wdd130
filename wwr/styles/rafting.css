@@ -146,7 +146,7 @@ header img {
 }
 
 .navigation a:hover {
-    color: rgb(255, 38, 0);
+    color: #FFA78F;
     font-weight: 700;
     text-decoration: underline;
 }
