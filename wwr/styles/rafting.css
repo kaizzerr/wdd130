@@ -21,91 +21,7 @@ body {
     --nav-hover-background-color: #F9F7F3;
 }
 
-.contact {
-    position: absolute;
-    width: 50%;
-    margin: auto;
-    left: 20%;
-    top: 40%;
-}
-
-.map {
-    position: relative;
-    width: 50%;
-    margin: auto;
-    left: 40%;
-}
-
-.emp-title {
-    position: relative;
-    font-size: 15px;
-    margin: auto;
-    left: 63%;
-}
-
-.employee {
-    clear: both;
-    display: flex;
-    flex-direction: row;
-}
-
-.employee figure {
-    position: relative;
-    width: 200px;
-    height: auto;
-    left: 30%;
-    right: 30%;
-}
-
-.employee img {
-    width: 200px;
-    height: auto;
-}
-
-.employee figcaption {
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    font-family: Roboto;
-    padding: 2px;
-}
-
-.form {
-    position: relative;
-    left: 25%;
-    max-width: 800px;
-    width: 65%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.form label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    padding: 3px;
-}
-
-.form input[type="text"], .form input[type="email"], .form textarea {
-    width: 95%;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-.form button {
-    padding: .75rem;
-    margin: 1rem;
-    background-color: rgb(0, 0, 176);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.form button:hover {
-    background-color: #0056b3;
-}
+/* about.html and site-plan-rafting.html */
 
 header {
     display: grid;
@@ -231,7 +147,7 @@ section p {
     position: relative;
     left: 60%;
     right: 60%;
-} 
+}
 
 .adventure {
     display: flex;
@@ -288,10 +204,158 @@ footer p {
     padding: 1rem;
 }
 
-.sociallinks nav a:link,nav a:visited {
+.sociallinks nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
 .sociallinks nav a:hover {
     color: var(--nav-hover-link-color);
 }
+
+/* about.html and site-plan-rafting.html */
+
+/* contact.html */
+
+.contact {
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    left: 20%;
+    top: 40%;
+}
+
+.map {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    left: 40%;
+}
+
+.emp-title {
+    position: relative;
+    font-size: 15px;
+    margin: auto;
+    left: 63%;
+}
+
+.employee {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+
+.employee figure {
+    position: relative;
+    width: 200px;
+    height: auto;
+    left: 30%;
+    right: 30%;
+}
+
+.employee img {
+    width: 200px;
+    height: auto;
+}
+
+.employee figcaption {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    font-family: Roboto;
+    padding: 2px;
+}
+
+.form {
+    position: relative;
+    left: 25%;
+    max-width: 800px;
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form button {
+    padding: .75rem;
+    margin: 1rem;
+    background-color: rgb(0, 0, 176);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+/* contact.html */
+
+/* index.html */
+
+.newsletter {
+    position: relative;
+    left: 25%;
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.newsletter input[type="name"], .newsletter input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    height: 10%;
+}
+
+.right {
+    float: right;
+    height: 10%;
+}
+
+.newsletter button {
+    padding: 10px;
+    margin: 1rem auto;
+    background-color: rgb(0, 0, 176);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.grid img {
+    width: 300px;
+}
+
+/* index.html */
