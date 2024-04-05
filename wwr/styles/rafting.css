@@ -354,6 +354,10 @@ footer p {
     background-color: #0056b3;
 }
 
+.grid {
+    display: grid;
+}
+
 .grid img {
     width: 300px;
 }
