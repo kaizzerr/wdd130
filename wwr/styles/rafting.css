@@ -323,7 +323,7 @@ footer p {
     text-align: center;
 }
 
-.newsletter input[type="name"], .newsletter input[type="email"] {
+.newsletter input[type="text"], .newsletter input[type="email"] {
     width: 70%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -356,10 +356,21 @@ footer p {
 
 .grid {
     display: grid;
+    align-items: center;
 }
 
 .grid img {
-    width: 300px;
+    position: relative;
+    width: 400px;
+}
+
+.grid figcaption {
+    width: 400px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    font-family: Roboto;
+    padding: 2px;
 }
 
 /* index.html */
