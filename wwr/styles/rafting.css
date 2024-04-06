@@ -385,21 +385,30 @@ footer p {
 
 .grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin: 20px;
+}
+
+.grid p {
+    position: relative;
+    width: 350px;
     text-align: center;
-    padding: 1px;
+    left: 12%;
 }
 
 .grid img {
-    width: 300px;
+    display: grid;
+    width: 350px;
+    height: 225px;
+    margin: auto;
 }
 
-.grid-left {
-    float: left;
+.grid-left, .grid-right {
+    position: relative;
+    text-align: center;
+    left: 50%;
 }
 
-.grid-right {
-    float: right;
-}
 
 /* index.html */
