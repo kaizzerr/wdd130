@@ -306,6 +306,17 @@ footer p {
 
 /* index.html */
 
+.header-img h2 {
+    position: relative;
+    text-align: center;
+    left: 25%;
+}
+
+.header-img img {
+    position: relative;
+    left: 25%;
+}
+
 .newsletter {
     position: relative;
     left: 25%;
@@ -354,23 +365,41 @@ footer p {
     background-color: #0056b3;
 }
 
+.action h2 {
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+.action p {
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+.action a:link {
+    position: relative;
+    left: 71%;
+    text-align: center;
+}
+
 .grid {
     display: grid;
     align-items: center;
+    text-align: center;
+    padding: 1px;
 }
 
 .grid img {
-    position: relative;
-    width: 400px;
+    width: 300px;
 }
 
-.grid figcaption {
-    width: 400px;
-    text-align: center;
-    background-color: #222;
-    color: #fff;
-    font-family: Roboto;
-    padding: 2px;
+.grid-left {
+    float: left;
+}
+
+.grid-right {
+    float: right;
 }
 
 /* index.html */
