@@ -445,9 +445,37 @@ footer p {
     text-align: center;
 }
 
-.trips img{
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 20px;
+}
+
+.trips h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.trips p {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.trips img {
+    display: grid;
     width: 300px;
     height: auto;
+    margin: 10px;
+}
+
+.trip-img1, .trip-img2, .trip-img3 {
+    position: relative;
+    text-align: center;
+    left: 70%;
 }
 
 /* trips.html */
