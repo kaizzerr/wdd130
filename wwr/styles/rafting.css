@@ -475,7 +475,30 @@ footer p {
 .trip-img1, .trip-img2, .trip-img3 {
     position: relative;
     text-align: center;
-    left: 70%;
+    left: 68%;
+}
+
+.trip-table h2 {
+    position: relative;
+    left: 68%;
+}
+
+table {
+    position: relative;
+    border-style: ridge;
+    width: 100%;
+    margin-bottom: 10px;
+    left: 25%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: #F9F7F3;
 }
 
 /* trips.html */
