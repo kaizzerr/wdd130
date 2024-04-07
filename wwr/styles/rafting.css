@@ -378,7 +378,7 @@ footer p {
 
 .action a:link {
     position: relative;
-    left: 69%;
+    left: 68.5%;
     text-align: center;
 }
 
@@ -393,14 +393,16 @@ footer p {
     position: relative;
     width: 350px;
     text-align: center;
-    left: 12%;
+    left: 15%;
 }
 
 .grid img {
     display: grid;
+    position: relative;
     width: 350px;
     height: 225px;
-    margin: auto;
+    margin: 10px;
+    left: 12.5%;
 }
 
 .grid-left, .grid-right {
