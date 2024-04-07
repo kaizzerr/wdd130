@@ -117,8 +117,7 @@ section p {
 
 .title h2 {
     position: relative;
-    left: 50%;
-    right: 50%;
+    left: 66%;
 }
 
 .history {
@@ -128,7 +127,6 @@ section p {
     margin: auto;
     text-align: center;
     left: 20%;
-    right: 20%;
 }
 
 .left {
