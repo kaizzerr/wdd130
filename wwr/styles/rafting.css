@@ -447,7 +447,6 @@ footer p {
     text-align: center;
 }
 
-
 .trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -456,7 +455,7 @@ footer p {
 }
 
 .trips h3 {
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
 }
 
