@@ -416,6 +416,7 @@ footer p {
 .button {
     display: inline-block;
     padding: 10px 20px;
+    margin: 10px;
     background-color: #4682b4;
     color: #ffffff;
     text-decoration: none;
@@ -424,6 +425,29 @@ footer p {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+.cta h2 {
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+.cta p {
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+.cta a:link {
+    position: relative;
+    left: 68%;
+    text-align: center;
+}
+
+.trips img{
+    width: 300px;
+    height: auto;
 }
 
 /* trips.html */
