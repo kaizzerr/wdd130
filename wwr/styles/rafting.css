@@ -55,7 +55,7 @@ header img {
 
 .navigation a {
     display: block;
-    color: rgb(0, 0, 172);
+    color: #4682b4;
     text-decoration: none;
     padding: 5px;
     border: 1px #00120B solid;
@@ -289,7 +289,7 @@ footer p {
 .form button {
     padding: .75rem;
     margin: 1rem;
-    background-color: rgb(0, 0, 176);
+    background-color: #4682b4;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -350,9 +350,10 @@ footer p {
 }
 
 .newsletter button {
-    padding: 10px;
+    display: inline-block;
+    padding: 10px 20px;
     margin: 1rem auto;
-    background-color: rgb(0, 0, 176);
+    background-color: #4682b4;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -377,7 +378,7 @@ footer p {
 
 .action a:link {
     position: relative;
-    left: 71%;
+    left: 69%;
     text-align: center;
 }
 
@@ -408,5 +409,21 @@ footer p {
     left: 50%;
 }
 
-
 /* index.html */
+
+/* trips.html */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4682b4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* trips.html */
